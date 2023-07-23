@@ -1,0 +1,291 @@
+test {
+    text-decoration: dashed; 
+}
+
+body {
+    margin: auto;
+    padding-top: 0%;
+    font-family: sans-serif;
+}
+
+.tampilan {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logotesk a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+
+.menu {
+    float: right;
+    
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: static;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #002555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 12px 0px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Salam {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img {
+    border: none;
+}
+
+.center {
+    position: absolute;
+    top: 20pt;
+    left: 150pt;
+    font-size: 150pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menjes {
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #001d3d;
+    justify-content: center;
+    bottom: -10%;
+}
+
+.profil {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-1%,-10%);
+}
+
+img {
+    border: 7px solid white;
+}
+
+.loaf {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.loaf h3 {
+   margin-top: -10px;
+}
+
+.loaf p {
+    font-size: 20px;
+    margin-top: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.desiggn {
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #001d3d;
+    justify-content: center;
+    bottom: -10%;
+    right: -10px;
+}
+
+.latar {
+    background-color: #001d3d;
+    position: relative;
+    justify-content: center;
+    line-height: 200px;
+    margin-top: -150px;
+
+}
+
+.teksnya {
+    justify-content: center;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+}
+
+main {
+    margin-left: 100px;
+}
+
+.box {
+    display: flex;
+    float: left;
+    width: 20%;
+    padding: 0.9%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-16%, -10%);
+}
+
+img {
+    width: 100%;
+}
+
+.blkng {
+    background-color: #001d3d;
+    background-repeat: no-repeat;
+    background-size: auto;
+    line-height: 200px;
+}
+
+.tekvd {
+    margin-top: 1345px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.vid {
+    margin-left: 350px;
+}
+
+.blkngn {
+    background-color: #001d3d;
+    background-repeat: no-repeat;
+    background-size: auto;
+    line-height: 150px;
+}
+.tekfo {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.Gambar {
+   width: 180px;
+   padding: 1px;
+   margin: 10px;
+}
+
+.kotak {
+    display: flex;
+    float: left;
+    width: 20%;
+    padding: 0.9%;
+}
+
+.backhir {
+    background-color: #001d3d;
+    margin-top: 1000px;
+}
+
+.tekir {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 200px;
+}
+
+.tekir p {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .tampilan{
+        width: 90%;
+    }
+
+    .logotesk a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0%;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    .center {
+        display: block;
+        text-align: center;
+        left: -30px;
+    }
+
+    .menjes {
+        font-size: 1px;
+
+    }
+
+    .profil {
+        display: block;
+        width: 100%;
+        height: auto
+    }
+
+    main .box {
+        
+        display: block;
+    }
+
+    .blkng .tekvd {
+        display: block;
+        margin: auto;
+    }
+    
+}
